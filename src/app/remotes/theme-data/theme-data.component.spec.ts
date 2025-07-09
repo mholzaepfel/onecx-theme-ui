@@ -16,11 +16,13 @@ const theme1: Theme = {
   name: 'theme1',
   displayName: 'Theme 1'
 }
+
 const theme2: Theme = {
   id: 't2',
   name: 'theme2',
   displayName: 'Theme 2'
 }
+
 const themes: Theme[] = [theme1, theme2]
 
 describe('OneCXThemeDataComponent', () => {
